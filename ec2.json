@@ -15,7 +15,7 @@
 
   "Outputs" : {
     "InstanceId" : {
-      "Description" : "Instance of the newly created EC2 instance.",
+      "Description" : "Instance.... of the newly created EC2 instance.",
       "Value" : { "Ref" : "EC2Instance" }
     },
     "AZ" : {
