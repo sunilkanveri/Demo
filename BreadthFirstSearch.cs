@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Programs
 {
-    public class Trees
+    partial class Tree
     {
         // Do not edit the class below except
         // for the BreadthFirstSearch method.
