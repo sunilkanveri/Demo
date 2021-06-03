@@ -1,21 +1,18 @@
-
-class Solution
+namespace Programs
 {
-    static void Main(string[] args)
+    class FaultyServer
     {
 
-        int penalty=compute_penalty("0 0 0 1 1 1 1", 3);
                                   // 1 1 1 0 0 0 0  
-        Console.WriteLine(penalty);
+
 
         // Console.WriteLine("Actual:\n  " + compute_penalty("0 0 0 1 1 1 1", 0) + "\nExpected:\n  3\n");
         // Console.WriteLine("Actual:\n  " + compute_penalty("0 0 0 1 1 1 1", 7) + "\nExpected:\n  4\n");
         // Console.WriteLine("Actual:\n  " + compute_penalty("0 0 0 1 1 1 1", 3) + "\nExpected:\n  0\n");
         // Console.WriteLine("Actual:\n  " + compute_penalty("", 0) + "\nExpected:\n  0\n");
 
-    }
     
-    static int compute_penalty(string logs, int remove_at){
+    public int compute_penalty(string logs, int remove_at){
         int hour=0;
         int penalty=0;
         foreach(char ch in logs){
@@ -29,6 +26,7 @@ class Solution
         }        
         return penalty;
     }
+}
 }
 
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sunil/Desktop/Repo/Demo/Demo.csproj",
-      "projectName": "Demo",
-      "projectPath": "/Users/sunil/Desktop/Repo/Demo/Demo.csproj",
+      "projectUniqueName": "/Users/sunil/Desktop/Repo/Algorithms/Algorithms.csproj",
+      "projectName": "Algorithms",
+      "projectPath": "/Users/sunil/Desktop/Repo/Algorithms/Algorithms.csproj",
       "packagesPath": "/Users/sunil/.nuget/packages/",
-      "outputPath": "/Users/sunil/Desktop/Repo/Demo/obj/",
+      "outputPath": "/Users/sunil/Desktop/Repo/Algorithms/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sunil/.nuget/NuGet/NuGet.Config"

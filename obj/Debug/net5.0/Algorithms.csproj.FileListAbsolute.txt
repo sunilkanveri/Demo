@@ -1,0 +1,15 @@
+/Users/sunil/Desktop/Repo/Algorithms/bin/Debug/net5.0/Algorithms.deps.json
+/Users/sunil/Desktop/Repo/Algorithms/bin/Debug/net5.0/Algorithms.runtimeconfig.json
+/Users/sunil/Desktop/Repo/Algorithms/bin/Debug/net5.0/Algorithms.runtimeconfig.dev.json
+/Users/sunil/Desktop/Repo/Algorithms/bin/Debug/net5.0/Algorithms.dll
+/Users/sunil/Desktop/Repo/Algorithms/bin/Debug/net5.0/ref/Algorithms.dll
+/Users/sunil/Desktop/Repo/Algorithms/bin/Debug/net5.0/Algorithms.pdb
+/Users/sunil/Desktop/Repo/Algorithms/obj/Debug/net5.0/Algorithms.csproj.AssemblyReference.cache
+/Users/sunil/Desktop/Repo/Algorithms/obj/Debug/net5.0/Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sunil/Desktop/Repo/Algorithms/obj/Debug/net5.0/Algorithms.AssemblyInfoInputs.cache
+/Users/sunil/Desktop/Repo/Algorithms/obj/Debug/net5.0/Algorithms.AssemblyInfo.cs
+/Users/sunil/Desktop/Repo/Algorithms/obj/Debug/net5.0/Algorithms.csproj.CoreCompileInputs.cache
+/Users/sunil/Desktop/Repo/Algorithms/obj/Debug/net5.0/Algorithms.dll
+/Users/sunil/Desktop/Repo/Algorithms/obj/Debug/net5.0/ref/Algorithms.dll
+/Users/sunil/Desktop/Repo/Algorithms/obj/Debug/net5.0/Algorithms.pdb
+/Users/sunil/Desktop/Repo/Algorithms/obj/Debug/net5.0/Algorithms.genruntimeconfig.cache
