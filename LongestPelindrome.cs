@@ -1,31 +1,35 @@
 using System;
 using System.Text;
-			
-public class Program
+
+namespace Programs
 {
-	public static void Main()
-	{
-		Console.WriteLine(LongestPalindrome("babad"));
-	}
-	
-    public string LongestPalindrome(string s) {
-        string pelindromeStr="";
-        for(int i=0; i<s.Length-1; i++){
-            string CurPelindromeStr=CalculatePelindrome(s[i], s);
-            if(pelindromeStr.Length<CurPelindromeStr.Length){
-                pelindromeStr=CurPelindromeStr;
+    public class LongestPalindrome
+    {
+        public string GetLongestPalindrome(string s)
+        {
+            string pelindromeStr = "";
+            for (int i = 0; i < s.Length - 1; i++)
+            {
+                string CurPelindromeStr = CreatePelindrome(s[i], s);
+                if (pelindromeStr.Length < CurPelindromeStr.Length)
+                {
+                    pelindromeStr = CurPelindromeStr;
+                }
             }
+            return pelindromeStr;
         }
-					return pelindromeStr;
-	}
-    
-        private string CalculatePelindrome(int mid, string s){
-        StringBuilder pelindrom=new StringBuilder("");
-            for(int i=0; i<mid-1; i++){
-           if(s[mid-i]==s[mid+i])  {
-               pelindrom.Append(s[mid-i]);
-           } 
-        }  
-                        return pelindrom.Tostring();
+
+        private string CreatePelindrome(int mid, string s)
+        {
+            StringBuilder pelindrom = new StringBuilder("");
+            for (int i = 0; i < mid - 1; i++)
+            {
+                if (s[mid - i] == s[mid + i])
+                {
+                    pelindrom.Append(s[mid - i]);
+                }
+            }
+            return pelindrom.ToString();
         }
+    }
 }

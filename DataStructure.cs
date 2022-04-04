@@ -9,12 +9,10 @@ namespace Programs
     {
         public void CheckDataStructure()
         {
-
-
             // Data types
             // *** Array
-            int[] arrayInt = new int[4] { -1, 0,1,2 };
-            string[] arrayString = { "Apple","Dog", "Elephant", "Boy", "Cat" };
+            int[] arrayInt = new int[4] { -1, 0, 1, 2 };
+            string[] arrayString = { "Apple", "Dog", "Elephant", "Boy", "Cat" };
             ArrayList arrayListInt = new ArrayList();
             Console.WriteLine("*********Array OutPut***************** \n");
             Array.ForEach(arrayString, Console.WriteLine);
@@ -23,9 +21,9 @@ namespace Programs
             var copyofArray = new string[8];
             Array.Copy(arrayString, copyofArray, arrayString.Length);
             Console.WriteLine("Print sorted using String.Join: " + String.Join(",", copyofArray) + "\n");
-            
+
             // *** Array
-            
+
             // *** Hashtable
             Hashtable hashTableInt = new Hashtable();
             hashTableInt.Add("Tom", 150);
@@ -33,7 +31,7 @@ namespace Programs
             hashTableInt.Add("Ashley", 130);
             hashTableInt.Add("Daniel", 170);
             Console.WriteLine("*********Hashtable OutPut****\n");
-            
+
             Console.WriteLine("Tom's hight: {0} Item Count: {1}", hashTableInt["Tom"], hashTableInt.Count);
             hashTableInt.Remove("Daniel");
             Console.WriteLine("Harry hight: {0} Item Count: {1}", hashTableInt["Harry"], hashTableInt.Count);
@@ -70,7 +68,7 @@ namespace Programs
             Console.WriteLine("Contains:" + linkedListInt.Contains(10) + " Prev Node:" + nodePrev.Value + " ListCount:" + linkedListInt.Count);
             linkedListInt.CopyTo(arrayInt, 0);
             Array.ForEach(arrayInt, Console.WriteLine);
-            
+
             // *** LinkedList
 
 
@@ -109,7 +107,7 @@ namespace Programs
             gQueueInt.Enqueue(3);
             gQueueInt.Enqueue(2);
             gQueueInt.Enqueue(1);
-            
+
             Console.WriteLine("\n*********Queue OutPut****\n");
             Console.Write("Peek, Pop & Pop Values:{0} & {1}, {2}", gQueueInt.Peek(), gQueueInt.Dequeue(), gQueueInt.Dequeue());
             // *** Queue

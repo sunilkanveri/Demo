@@ -1,22 +1,25 @@
 using System;
 using System.Collections.Generic;
 
-public class ValidSubsequence
+namespace Programs
 {
-    public static bool IsValidSubsequence(List<int> array, List<int> sequence)
+    class ValidSubsequence
     {
-        // Write your code here.
-        int arrIdx = 0;
-        int seqIdx = 0;
-        while (seqIdx < sequence.Count && arrIdx < array.Count)
+        bool IsValidSubsequence(List<int> array, List<int> sequence)
         {
-            if (array[arrIdx] == sequence[seqIdx])
+            // Write your code here.
+            int arrIdx = 0;
+            int seqIdx = 0;
+            while (seqIdx < sequence.Count && arrIdx < array.Count)
             {
-                arrIdx++;
+                if (array[arrIdx] == sequence[seqIdx])
+                {
+                    arrIdx++;
+                }
+                seqIdx++;
             }
-            seqIdx++;
+            return seqIdx == sequence.Count;
         }
-        return seqIdx==sequence.Count;
     }
 }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sunil/Desktop/Repo/Algorithms/Algorithms.csproj": {}
+    "/Users/sunil/Desktop/GitHub/Algorithms/Demo/Algorithms.csproj": {}
   },
   "projects": {
-    "/Users/sunil/Desktop/Repo/Algorithms/Algorithms.csproj": {
+    "/Users/sunil/Desktop/GitHub/Algorithms/Demo/Algorithms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sunil/Desktop/Repo/Algorithms/Algorithms.csproj",
+        "projectUniqueName": "/Users/sunil/Desktop/GitHub/Algorithms/Demo/Algorithms.csproj",
         "projectName": "Algorithms",
-        "projectPath": "/Users/sunil/Desktop/Repo/Algorithms/Algorithms.csproj",
+        "projectPath": "/Users/sunil/Desktop/GitHub/Algorithms/Demo/Algorithms.csproj",
         "packagesPath": "/Users/sunil/.nuget/packages/",
-        "outputPath": "/Users/sunil/Desktop/Repo/Algorithms/obj/",
+        "outputPath": "/Users/sunil/Desktop/GitHub/Algorithms/Demo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sunil/.nuget/NuGet/NuGet.Config"
